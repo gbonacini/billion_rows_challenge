@@ -2,8 +2,8 @@ Introduction:
 =============
 
 * I wrote this program after reading this article:
-https://tspeterkim.github.io/posts/cuda-1brc <B>
-about this challenge: 
+https://tspeterkim.github.io/posts/cuda-1brc <BR>
+about this challenge:<BR> 
 https://1brc.dev/#the-challenge <BR>
 
 * This won't be direct candidate to the challenge because I think that different approaches could guarantee better performance, but a way to verify that the program in the first article can me improved. Infact my version use less then an half of GPU memory and run two second faster on my laptop pc ( not a server with H100 Nvidia GPU like the author of the article did).
