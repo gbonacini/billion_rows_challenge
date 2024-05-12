@@ -1,0 +1,5 @@
+process
+genfile
+measurements.txt
+*.swp
+*.swo
