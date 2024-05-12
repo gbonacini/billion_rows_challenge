@@ -49,7 +49,7 @@ Installation and Use:
 ```
 - run the program:
 ```shell
-$ time ./process ./ measurements.txt
+$ time ./process ./measurements.txt
 ```
 
 Performances:
