@@ -140,13 +140,14 @@ int main(int argc, char** argv){
    get<STOP>(iOffsets[THREADS - 1]) =  isize - 1;
    
    cerr << "End Slices calc.\n";
-
+  
+   const size_t                  BUFF_SIZE { 128 };
    auto worker { [&](size_t thrnum, size_t begin, size_t end) { 
                       string buff,
                              kkey;
                              
-                      buff.reserve(128);
-                      kkey.reserve(128);
+                      buff.reserve(BUFF_SIZE);
+                      kkey.reserve(BUFF_SIZE);
 
                       cities[thrnum].reserve(SLICE + DELTA);
                       values[thrnum].reserve(SLICE + DELTA);
