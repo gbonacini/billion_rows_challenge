@@ -3,3 +3,4 @@ genfile
 measurements.txt
 *.swp
 *.swo
+original_challenge_input_generator/gen

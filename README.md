@@ -31,6 +31,7 @@ Dependencies:
 =============
 
 * CUDA 12.4
+* Hardware capabilities sm_86
 
 Installation and Use:
 =====================
